@@ -2,8 +2,11 @@
 This is a script that automatically replaces the raspberry pi networking utilities with networkd. It is designed to be setup for pi clusters and pi networking in general. it allows you to use both wlan and ethernet at the same time.
 
 Below is a step by step guide for how to do this, but just run network-fix-perm.sh to get the same result
+
 run network-redo.sh to undo the permenant changes
+
 run network-fix.sh for the change to be temperary until the next reboot
+
 run network-change.sh to change which network you are connected to.
 
 
